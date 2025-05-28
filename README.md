@@ -1,12 +1,12 @@
-Speech Emotion Analyzer
+#Speech Emotion Analyzer
 
 Speech Emotion Analyzer is a machine learning project designed to detect human emotions based on voice input. In today’s world, personalization is critical to enhancing user experiences. This project explores how audio-based emotion detection can contribute to personalization in various industries such as marketing, entertainment, and even autonomous vehicles.
 
-Project Idea
+#Project Idea
 
 Humans express emotions through tone and speech patterns, and this information can be used to tailor experiences. Imagine a system that recognizes when you're sad and recommends uplifting music—or a car that slows down if it detects you're stressed. The goal of this project is to lay the groundwork for such emotion-aware systems by building a machine learning model capable of classifying emotions from audio clips.
 
-Datasets Used
+#Datasets Used
 
 We used two publicly available datasets to train and test our model:
 
@@ -30,7 +30,7 @@ Waveform: Plotted to inspect amplitude over time.
 
 Spectrogram: Used to observe how frequencies vary over time.
 
-Feature Extraction
+#Feature Extraction
 
 We used the LibROSA library for audio feature extraction. Key preprocessing steps include:
 
@@ -40,7 +40,7 @@ Sampling Rate Adjustment: Sampling rate was doubled to improve feature richness 
 
 Feature Format: Extracted features are numerical arrays with corresponding emotion labels.
 
-Model Building
+#Model Building
 
 Since the task is multi-class classification, we experimented with several deep learning architectures:
 
@@ -83,7 +83,7 @@ If you’re using the model for inference, here's a reference for decoding predi
 8 - male_happy  
 9 - male_sad  
 
-Conclusion
+#Conclusion
 
 This project demonstrates the potential of emotion detection using audio inputs. Though achieving high accuracy is challenging due to the complex nature of emotions and variability in voice, our model performs well with:
 
